@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+    <script>
+        // Bài 1
+        // let i = 0 ;
+        // while ( i <= 100){
+        //     if(i == 99){
+        //        document.write("đã hoàn thành"+"<br>")
+        //        break;
+        //     }
+        //     document.write(i + "<br>")
+        //     i++
+        // }
+        // Bài 2
+        // let nhietdo = +(prompt(" Hãy nhập vào nhiệt độ của bạn.."))
+        // do{
+        //     if(nhietdo > 100){
+        //         alert (" Hãy giảm nhiệt độ")
+        //             }else if(nhietdo < 20 ){
+        //                 alert(" Hãy tăng nhiệt độ")
+        //             }else {
+        //                 nhietdo = +(prompt(" Hãy nhập vào nhiệt độ của bạn..")) 
+        //             }
+        //     nhietdo = +(prompt(" Hãy nhập vào nhiệt độ của bạn.."))
+        // }
+        // while(nhietdo >100 || nhietdo <20)
+            // Bài 6
+            // let sum = 0 ;
+            // let count = 0;
+            // let number = 7;
+            // for (let i =0 ; ;i++){
+            //     if ( i % number == 0){
+            //     sum += i
+            //     count ++
+            //     }if(count == 30){
+            //         break;
+            //     }
+            // }
+            // document.write(sum)
+            // Bài 7
+            let num = 1
+            let result = ""
+            while(num <= 100) {
+                if (num % 15 == 0) {
+                    result += "FizzBuzz<br>"
+                    } else if (num % 5 == 0) {
+                        result += "Buzz<br>"
+                    } else if (num % 3 == 0) {
+                        result += "Fizz<br>"
+                    } else {
+                        result += (num + "<br>")
+                    }
+                    num++
+                }
+                document.write(result)
+    </script>
+                
+</html>
